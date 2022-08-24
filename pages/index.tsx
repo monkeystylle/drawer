@@ -1,21 +1,15 @@
 import styled from 'styled-components';
 import type { NextPage } from 'next';
+import { Menu } from 'react-feather';
 
 const Home: NextPage = () => {
   return (
-    <>
-      <Title>My page ATUA</Title>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-        neque, ab eligendi natus nostrum optio.
-      </p>
-    </>
+    <PageWrapper>
+      <h1>sample hehe</h1>
+    </PageWrapper>
   );
 };
 
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`;
+const PageWrapper = styled.div``;
 
 export default Home;
